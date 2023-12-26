@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://mradulsingh:mradulsingh@cluster1.t8prj2e.mongodb.net/
+      database: Employee
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: u4271398@gmail.com
+    password: user2304
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 8000
