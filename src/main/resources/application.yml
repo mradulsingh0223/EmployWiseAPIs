@@ -1,13 +1,13 @@
 spring:
   data:
     mongodb:
-      uri: your_mongo_db_uri
+      uri: mongodb+srv://mradulsingh:mradulsingh@cluster1.t8prj2e.mongodb.net/
       database: Employee
   mail:
     host: smtp.gmail.com
     port: 25
-    username: your_mai
-    password: your_pass
+    username: u4271398@gmail.com
+    password: drir crht qxta snhy
     properties:
       mail:
         smtp:
