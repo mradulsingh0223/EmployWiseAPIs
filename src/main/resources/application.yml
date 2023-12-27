@@ -15,4 +15,4 @@ spring:
           starttls:
             enable: true
 server:
-  port: 8000
+  port: 8005

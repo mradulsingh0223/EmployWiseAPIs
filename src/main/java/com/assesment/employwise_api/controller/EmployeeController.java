@@ -28,6 +28,12 @@ public class EmployeeController {
         return service.findAllEmployee();
     }
 
+    @GetMapping("/health")
+    @ResponseStatus(HttpStatus.OK)
+    public String healthCheck() {
+        return "Health Check Passed";
+    }
+
     @GetMapping("/pagination")
     public ResponseEntity<?> getEmployeePagination(
             @RequestParam(defaultValue = "0") int page,
