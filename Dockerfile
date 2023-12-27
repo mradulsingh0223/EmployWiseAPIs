@@ -1,5 +1,8 @@
 FROM eclipse-temurin:17-jdk-alpine
 
+# Install Maven
+RUN apk add --no-cache maven
+
 WORKDIR /app
 
 # Copy only the pom.xml file and install dependencies to cache dependencies layer
