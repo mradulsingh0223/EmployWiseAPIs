@@ -1,0 +1,5 @@
+com/assesment/employwise_api/repository/EmployeeRepository.class
+com/assesment/employwise_api/controller/EmployeeController.class
+com/assesment/employwise_api/model/Employee.class
+com/assesment/employwise_api/service/EmployeeService.class
+com/assesment/employwise_api/EmploywiseApiApplication.class
